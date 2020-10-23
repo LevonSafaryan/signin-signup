@@ -1,20 +1,29 @@
 {
-  "name": "4-login-register",
+  "name": "5-admin",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app",
+    "server": "nodemon app"
   },
   "keywords": [
-    "restfull",
-    "API",
     "login",
-    "register"
+    "register",
+    "jwt",
+    "restful"
   ],
-  "author": "Lina",
+  "author": "adamianlina",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
   }
 }
